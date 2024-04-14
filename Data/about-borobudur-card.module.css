@@ -1,0 +1,82 @@
+.linkOrganizer {
+  background-color: var(--color-gray-600);
+}
+.dataMerger,
+.linkOrganizer,
+.valueChecker {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.valueChecker {
+  background: linear-gradient(0.76deg, rgba(0, 0, 0, 0.7), transparent 38.42%);
+  z-index: 1;
+}
+.dataMerger {
+  margin: 0 !important;
+}
+.architecturalMarvel {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.borobudurWasBuilt {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--paragraph-regular-size);
+  line-height: 150%;
+  color: var(--neutral-300);
+}
+.aboutBorobudurCard,
+.architecturalMarvelParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.architecturalMarvelParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+  z-index: 2;
+}
+.aboutBorobudurCard {
+  flex: 0.8113;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-16xl) var(--padding-21xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 318px;
+  min-height: 599px;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--white);
+  font-family: var(--body-regular);
+}
+@media screen and (max-width: 800px) {
+  .architecturalMarvel {
+    font-size: var(--font-size-10xl);
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .architecturalMarvel {
+    font-size: var(--font-size-3xl);
+    line-height: 30px;
+  }
+  .aboutBorobudurCard {
+    flex: 1;
+  }
+}

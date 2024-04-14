@@ -1,0 +1,74 @@
+.travellerExperience1 {
+  margin: 0;
+  width: 545px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 62px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.testimonialCard,
+.testimonialCard1,
+.testimonialCard2,
+.testimonialCard3 {
+  flex-direction: row;
+}
+.linkSorter,
+.testimonialCard,
+.testimonialCard1,
+.testimonialCard2,
+.testimonialCard3,
+.travellerExperience {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.linkSorter {
+  width: 1380px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+  font-size: var(--paragraph-regular-size);
+  color: var(--neutral-600);
+}
+.travellerExperience {
+  background-color: var(--blue-50);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-101xl) 0 var(--padding-87xl) var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-43xl);
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--neutral-800);
+  font-family: var(--body-regular);
+}
+@media screen and (max-width: 800px) {
+  .travellerExperience1 {
+    font-size: var(--font-size-26xl);
+    line-height: 49px;
+  }
+  .travellerExperience {
+    gap: var(--gap-12xl);
+    padding-left: var(--padding-11xl);
+    padding-top: var(--padding-59xl);
+    padding-bottom: var(--padding-50xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .travellerExperience1 {
+    font-size: var(--font-size-15xl);
+    line-height: 37px;
+  }
+  .travellerExperience {
+    gap: var(--gap-mini);
+  }
+}

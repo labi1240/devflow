@@ -1,0 +1,15 @@
+.conditionChecker {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    -0.12deg,
+    rgba(0, 0, 0, 0.7) 15.42%,
+    transparent 62.81%
+  );
+  z-index: 1;
+}

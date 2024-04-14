@@ -1,0 +1,90 @@
+.booleanOperator,
+.functionCreator {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.functionCreator {
+  margin: 0 !important;
+}
+.buckinghamPalace {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 40px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+}
+.locationOnIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.inputReceiver {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.unitedKingdom {
+  position: relative;
+  line-height: 150%;
+}
+.inputReceiverParent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+  gap: var(--gap-9xs);
+  font-size: var(--paragraph-regular-size);
+  color: var(--neutral-200);
+}
+.loopController,
+.popularCard {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.loopController {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  z-index: 2;
+}
+.popularCard {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 318px;
+  min-height: 564px;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--white);
+  font-family: var(--body-regular);
+}
+@media screen and (max-width: 800px) {
+  .buckinghamPalace {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .buckinghamPalace {
+    font-size: var(--font-size-3xl);
+    line-height: 24px;
+  }
+}

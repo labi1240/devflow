@@ -1,0 +1,76 @@
+.audioTransformer,
+.geometrySplitter {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.geometrySplitter {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-37xl);
+  min-width: 318px;
+  min-height: 655px;
+}
+.audioTransformer {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-12xs) 0 0;
+  gap: var(--gap-5xl);
+}
+.audioAnalyzer,
+.imageHandler {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.audioAnalyzer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+}
+.imageHandler {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-41xl) var(--padding-101xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--white);
+  font-family: var(--body-regular);
+}
+@media screen and (max-width: 1350px) {
+  .audioTransformer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .imageHandler {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .geometrySplitter {
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .audioAnalyzer {
+    gap: var(--gap-21xl);
+  }
+  .imageHandler {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .audioAnalyzer {
+    gap: var(--gap-xl);
+  }
+}

@@ -1,0 +1,107 @@
+.span {
+  color: var(--color-gray-400);
+}
+.restParameter {
+  width: 88px;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.sliderIcon {
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  height: 100%;
+  transform: scale(2.778);
+}
+.wrapperSlider {
+  width: 984px;
+  position: relative;
+  margin-top: -4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrowForwardIosIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: rotate(-180deg);
+}
+.templateLiterals {
+  height: 39px;
+  width: 39px;
+  border-radius: var(--br-161xl);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs-5) var(--padding-4xs);
+  transform: rotate(180deg);
+}
+.arrowForwardIosIcon1 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dataCollector {
+  height: 39.3px;
+  width: 39.3px;
+  border-radius: var(--br-161xl);
+  background-color: var(--color-blueviolet);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs-7) var(--padding-2xs) var(--padding-2xs-6);
+  box-sizing: border-box;
+}
+.destructuringAssignment {
+  width: 88px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 9.67px;
+}
+.closure {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--black);
+  font-family: var(--body-regular);
+}
+@media screen and (max-width: 1350px) {
+  .closure {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .closure {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .closure {
+    gap: var(--gap-xl);
+  }
+}

@@ -1,0 +1,76 @@
+.geometryFormatter {
+  width: 89px;
+  height: 69px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.audioFormatter {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.loremIpsumDolor1 {
+  position: relative;
+  line-height: 24px;
+}
+.loremIpsumDolor2 {
+  position: relative;
+  font-size: var(--body-regular-size);
+  line-height: 140%;
+  font-weight: 500;
+  font-family: var(--body-regular);
+  color: var(--neutral-500);
+  display: inline-block;
+  min-width: 111px;
+}
+.linkJoiner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl) 0 0;
+  gap: var(--gap-9xs);
+  color: var(--neutral-800);
+  font-family: var(--font-heebo);
+}
+.imageFormatter,
+.testimonialCard {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.imageFormatter {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  flex-shrink: 0;
+}
+.testimonialCard {
+  height: 268px;
+  width: 424px;
+  background-color: var(--white);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-31xl) var(--padding-mid);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--paragraph-regular-size);
+  color: var(--neutral-600);
+  font-family: var(--body-regular);
+}
+@media screen and (max-width: 450px) {
+  .imageFormatter {
+    gap: var(--gap-base);
+  }
+}

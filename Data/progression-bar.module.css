@@ -1,0 +1,81 @@
+.span {
+  color: var(--color-gray-400);
+}
+.ifStatement {
+  width: 88px;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.sliderIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  min-width: 2px;
+  margin-top: -4px;
+}
+.arrowForwardIosIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: rotate(-180deg);
+}
+.forLoop {
+  height: 39px;
+  width: 39px;
+  border-radius: var(--br-161xl);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs-5) var(--padding-4xs);
+  transform: rotate(180deg);
+}
+.arrowForwardIosIcon1 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.doWhileLoop {
+  height: 39.3px;
+  width: 39.3px;
+  border-radius: var(--br-161xl);
+  background-color: var(--color-blueviolet);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs-7) var(--padding-2xs) var(--padding-2xs-6);
+  box-sizing: border-box;
+}
+.doWhileLoop,
+.progressionBar,
+.switchCase {
+  display: flex;
+  flex-direction: row;
+}
+.switchCase {
+  width: 88px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 9.67px;
+}
+.progressionBar {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--black);
+  font-family: var(--body-regular);
+}

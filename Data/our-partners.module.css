@@ -1,0 +1,200 @@
+.ourPartners1 {
+  margin: 0;
+  width: 183px;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+}
+.weWorkWith {
+  position: relative;
+  font-size: var(--paragraph-regular-size);
+  line-height: 150%;
+  font-family: var(--body-regular);
+  color: var(--neutral-400);
+  text-align: left;
+}
+.ourPartnersHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.markIcon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.starsupIcon {
+  height: 22.4px;
+  width: 85px;
+  position: relative;
+}
+.fictionalCompanyLogostartup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs-6);
+}
+.markIcon1 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.overlaysIcon {
+  height: 16.8px;
+  width: 82.3px;
+  position: relative;
+}
+.fictionalCompanyLogooverlay {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-11xs-3) 0 var(--padding-11xs-4);
+  gap: var(--gap-7xs-6);
+}
+.markIcon2 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.teamtalkIcon {
+  height: 11.8px;
+  width: 110.9px;
+  position: relative;
+}
+.fictionalCompanyLogoteamtal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs-6);
+}
+.markIcon3 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.payscaleIcon {
+  height: 17.5px;
+  width: 72px;
+  position: relative;
+}
+.fictionalCompanyLogopayscal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-lgi-5) 0 var(--padding-lgi-4);
+  gap: var(--gap-7xs-6);
+}
+.markIcon4 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.exdoneIcon {
+  height: 19.6px;
+  width: 87.7px;
+  position: relative;
+}
+.fictionalCompanyLogoexdone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs-6);
+}
+.logotype,
+.markIcon5 {
+  position: relative;
+  flex-shrink: 0;
+}
+.markIcon5 {
+  height: 28px;
+  width: 28px;
+  overflow: hidden;
+  min-height: 28px;
+}
+.logotype {
+  flex: 1;
+  letter-spacing: -1.4px;
+  line-height: 25px;
+  display: inline-block;
+  min-width: 95px;
+}
+.fictionalCompanyLogobestban,
+.ourPartners,
+.partners {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.fictionalCompanyLogobestban {
+  width: 121.1px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  gap: var(--gap-7xs-6);
+}
+.ourPartners,
+.partners {
+  max-width: 100%;
+}
+.partners {
+  width: 1143.5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs-1) 0 0;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-3xl-4);
+  font-family: var(--body-regular);
+}
+.ourPartners {
+  flex: 1;
+  background-color: var(--black);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-37xl) var(--padding-xl);
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--white);
+  font-family: var(--font-heebo);
+}
+@media screen and (max-width: 800px) {
+  .ourPartners {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourPartners1 {
+    font-size: var(--font-size-3xl);
+    line-height: 19px;
+  }
+  .logotype {
+    font-size: var(--paragraph-regular-size);
+    line-height: 20px;
+  }
+}

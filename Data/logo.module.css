@@ -1,0 +1,35 @@
+.j1Icon {
+  height: 33px;
+  width: 33px;
+  position: relative;
+  min-height: 33px;
+}
+.discovery,
+.world {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 109px;
+}
+.world {
+  font-size: var(--font-size-xs);
+  letter-spacing: 1.26em;
+  min-width: 105px;
+}
+.discoveryParent,
+.j1Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.j1Parent {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--paragraph-regular-size);
+  color: var(--white);
+  font-family: var(--font-archivo);
+}

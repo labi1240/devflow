@@ -1,0 +1,120 @@
+.destination {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 72px;
+}
+.text1 {
+  align-self: stretch;
+  height: 24px;
+  font-family: var(--body-regular);
+  font-weight: 700;
+  font-size: var(--body-regular-size);
+  color: var(--color-gray-200);
+}
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 94px;
+}
+.frameChild {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  max-height: 100%;
+  min-height: 48px;
+}
+.averagePrice {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 86px;
+}
+.text3 {
+  align-self: stretch;
+  height: 24px;
+  font-family: var(--body-regular);
+  font-weight: 700;
+  font-size: var(--body-regular-size);
+  color: var(--color-gray-200);
+}
+.text2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 94px;
+}
+.frameItem {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  max-height: 100%;
+  min-height: 48px;
+}
+.date {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 29px;
+}
+.text5 {
+  align-self: stretch;
+  height: 24px;
+  font-family: var(--body-regular);
+  font-weight: 700;
+  font-size: var(--body-regular-size);
+  color: var(--color-gray-200);
+}
+.form,
+.text4,
+.textParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.text4 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 94px;
+}
+.form,
+.textParent {
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.textParent {
+  flex: 1;
+  gap: var(--gap-5xl);
+}
+.form {
+  width: 718px;
+  background-color: var(--white);
+  flex-wrap: wrap;
+  padding: var(--padding-5xs) var(--padding-7xs) var(--padding-5xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  font-family: var(--font-heebo);
+}
+@media screen and (max-width: 800px) {
+  .textParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .textParent {
+    min-width: 100%;
+  }
+}

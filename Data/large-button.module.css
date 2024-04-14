@@ -1,0 +1,9 @@
+.button {
+  height: 54px;
+  width: 143px;
+}
+@media screen and (max-width: 450px) {
+  .button {
+    flex: 1;
+  }
+}

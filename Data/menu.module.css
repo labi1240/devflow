@@ -1,0 +1,52 @@
+.home {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 43px;
+  z-index: 1;
+}
+.service {
+  min-width: 61px;
+  white-space: nowrap;
+}
+.about,
+.blog,
+.gallery,
+.service,
+.visit {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.gallery {
+  min-width: 64px;
+  white-space: nowrap;
+}
+.about,
+.blog,
+.visit {
+  min-width: 38px;
+}
+.about {
+  min-width: 49px;
+}
+.homeParent {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--white);
+  font-family: var(--font-heebo);
+}

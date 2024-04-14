@@ -1,0 +1,69 @@
+.exploreTheBeautiful {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 67px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.travelingIsAbout {
+  width: 471px;
+  position: relative;
+  font-size: var(--paragraph-regular-size);
+  line-height: 150%;
+  display: inline-block;
+  max-width: 100%;
+}
+.titlr {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xl-5);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.content,
+.contentWrapper,
+.titlr {
+  display: flex;
+  max-width: 100%;
+}
+.content {
+  width: 872px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  z-index: 1;
+}
+.contentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--white);
+  font-family: var(--body-regular);
+}
+@media screen and (max-width: 800px) {
+  .exploreTheBeautiful {
+    font-size: var(--font-size-32xl);
+    line-height: 53px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .exploreTheBeautiful {
+    font-size: var(--font-size-19xl);
+    line-height: 40px;
+  }
+  .content {
+    gap: var(--gap-xl);
+  }
+}
